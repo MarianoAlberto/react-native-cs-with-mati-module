@@ -1,0 +1,6 @@
+rootProject.name = 'CsWithMatiModuleExample'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+
+include ':reactnativecswithmatimodule'
+project(':reactnativecswithmatimodule').projectDir = new File(rootProject.projectDir, '../../android')
