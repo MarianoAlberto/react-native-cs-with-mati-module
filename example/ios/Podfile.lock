@@ -187,7 +187,6 @@ PODS:
     - React-jsi (= 0.63.4)
   - React-jsinspector (0.63.4)
   - react-native-cs-with-mati-module (0.1.0):
-    - Mati-Global-ID-SDK
     - React-Core
   - react-native-mati-global-id-sdk (3.3.8):
     - Mati-Global-ID-SDK
@@ -367,7 +366,7 @@ SPEC CHECKSUMS:
   React-jsi: a0418934cf48f25b485631deb27c64dc40fb4c31
   React-jsiexecutor: 93bd528844ad21dc07aab1c67cb10abae6df6949
   React-jsinspector: 58aef7155bc9a9683f5b60b35eccea8722a4f53a
-  react-native-cs-with-mati-module: d071dc0bb59d7036704663d8c23a55787bef6fd2
+  react-native-cs-with-mati-module: 7c150943a6d137eff2e2c86b6af29afdeec3dba8
   react-native-mati-global-id-sdk: 9f0b63f0e115ae38d7ea87c8c4a750bef701d4df
   React-RCTActionSheet: 89a0ca9f4a06c1f93c26067af074ccdce0f40336
   React-RCTAnimation: 1bde3ecc0c104c55df246eda516e0deb03c4e49b
