@@ -1,4 +1,7 @@
+//import React from 'react';
 import { NativeModules, Platform } from 'react-native';
+// @ts-ignore
+import * as flow from './screens/Login';
 
 const LINKING_ERROR =
   `The package 'react-native-cs-with-mati-module' doesn't seem to be linked. Make sure: \n\n` +
@@ -20,3 +23,8 @@ const CsWithMatiModule = NativeModules.CsWithMatiModule
 export function multiply(a: number, b: number): Promise<number> {
   return CsWithMatiModule.multiply(a, b);
 }
+
+export const HomeScreen = () => {
+  console.log('flow es: ', typeof flow);
+  return flow.flow();
+};

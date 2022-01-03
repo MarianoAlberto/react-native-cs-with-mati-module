@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "checkJs": false,
     "baseUrl": "./",
     "paths": {
       "react-native-cs-with-mati-module": ["./src/index"]

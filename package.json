@@ -143,5 +143,8 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "react-native-mati-global-id-sdk": "github:MatiFace/react-native-mati-global-id-sdk"
   }
 }
